@@ -18,4 +18,5 @@
 
 
 ## Installation
+install conda
 Read requirements.txt 

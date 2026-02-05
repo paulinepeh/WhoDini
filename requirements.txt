@@ -1,4 +1,4 @@
-you gon need
+you gon need this in your environment
 
 numpy
 pandas
