@@ -18,4 +18,4 @@
 
 
 ## Installation
-
+Read requirements.txt 

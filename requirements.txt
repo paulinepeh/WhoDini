@@ -1,0 +1,8 @@
+you gon need
+
+numpy
+pandas
+matplotlib
+scikit-learn
+torchvision
+ultralytics
