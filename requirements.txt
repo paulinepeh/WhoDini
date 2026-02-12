@@ -1,0 +1,8 @@
+you gon need this in your environment
+
+numpy
+pandas
+matplotlib
+scikit-learn
+torchvision
+ultralytics
