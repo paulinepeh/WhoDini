@@ -10,6 +10,7 @@ async def app(scope, receive, send):
         ],
     })
     await send({
-        'type': 'http.response.body',
+        'type': 'http.response.body', 
         'body': b'Hello, world!',
     })
+#uvicorn main:app --reload # to start the server, --reload will constatntly update changes from the code
