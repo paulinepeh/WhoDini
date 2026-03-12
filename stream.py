@@ -1,6 +1,6 @@
 import cv2
-import requests
 import numpy as np
+import requests
 
 API_URL = "http://127.0.0.1:8000/predict"
 
@@ -28,9 +28,16 @@ while True:
             x1, y1, x2, y2 = map(int, pred["bbox"])
             label = f"{pred['class']} {pred['confidence']:.2f}"
 
-            cv2.rectangle(frame, (x1, y1), (x2, y2), (0,255,0), 2)
-            cv2.putText(frame, label, (x1, y1 - 10),
-                        cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0,255,0), 2)
+            cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 255, 0), 2)
+            cv2.putText(
+                frame,
+                label,
+                (x1, y1 - 10),
+                cv2.FONT_HERSHEY_SIMPLEX,
+                0.5,
+                (0, 255, 0),
+                2,
+            )
 
     except Exception as e:
         print("API error:", e)
