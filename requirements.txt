@@ -1,4 +1,5 @@
-ultralyticscertifi==2026.1.4
+ultralytics
+certifi==2026.1.4
 charset-normalizer==3.4.4
 contourpy==1.3.3
 cycler==0.12.1
