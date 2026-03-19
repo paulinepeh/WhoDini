@@ -8,7 +8,6 @@ net = model.model
 
 print("\n===== INSPECTING MODEL LAYERS =====\n")
 
-
 # Hook function
 def get_hook(name):
     def hook(module, input, output):
