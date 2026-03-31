@@ -1,0 +1,7 @@
+.venv/
+output/
+videos/
+whitelist/
+__pycache__/
+*.pyc
+.DS_Store
